@@ -338,6 +338,10 @@ img {
   }
   ._nav-link {
     color: var(--primary-color-lighter);
+    transition: all 150ms;
+  }
+  ._nav-link:hover {
+    color: var(--primary-color);
   }
   ._nav-toggle {
     display: none;
